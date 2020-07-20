@@ -114,4 +114,36 @@ if ( '1999' === 1999 ) {
     console.log('melas');
 }
 
+console.log('===================');
+console.log('===================');
+console.log('===================');
 
+const book1 = 150;
+const book2 = 3000;
+
+if ( book1 > book2 ) {
+    console.log( 'Book1 didesne' );
+} else {
+    console.log( 'Book2 didesne' );
+}
+
+const biggerBook = book1 > book2 ? 'Book1' : 'Book2';
+
+console.log( `Didesne knyga yra ${biggerBook}.` );
+
+
+const t1 = 'Viengubos "yra" kabutes';
+const t2 = "Dvygubos 'yra' kabutes";
+const combo = `asda "ldsfkla" \`jdflkjaslkd\` 'fas' dkf`;
+
+const div = '<div>\
+                <img src="#" alt="' + biggerBook + '">\
+            </div>';
+
+const div2 = `<div>
+                <img src="#" alt="${biggerBook}">
+            </div>`;
+
+console.log(t1);
+console.log(t2);
+console.log(combo);
